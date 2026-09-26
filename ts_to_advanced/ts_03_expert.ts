@@ -5,6 +5,9 @@
 // Mastering these will make you a TypeScript expert and help immensely with
 // strongly-typing complex architectures and writing dynamic utility functions.
 
+// NOTE: THE BROKEN UNDERLINE DOES NOT INDICATE ERROR, IT MEANS THAT VARIABLE IS
+// DECLARED BUT NEVER USED
+
 // ------------------------------------------
 // 1. KEYOF TYPE OPERATOR
 // ------------------------------------------

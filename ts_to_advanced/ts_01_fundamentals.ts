@@ -5,6 +5,9 @@
 // Read through the explanations and experiment with the code.
 // TypeScript is a superset of JavaScript that adds static typing.
 
+// NOTE: THE BROKEN UNDERLINE DOES NOT INDICATE ERROR, IT MEANS THAT VARIABLE IS
+// DECLARED BUT NEVER USED
+
 // ------------------------------------------
 // 1. BASIC PRIMITIVE TYPES
 // ------------------------------------------

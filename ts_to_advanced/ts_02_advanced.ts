@@ -4,6 +4,9 @@
 // This file dives into Object-Oriented Programming (OOP),
 // Generics, and more complex type narrowing mechanisms.
 
+// NOTE: THE BROKEN UNDERLINE DOES NOT INDICATE ERROR, IT MEANS THAT VARIABLE IS
+// DECLARED BUT NEVER USED
+
 // ------------------------------------------
 // 1. CLASSES
 // ------------------------------------------
