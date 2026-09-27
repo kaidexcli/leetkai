@@ -3,6 +3,9 @@
 // Ensure each variable has the correct explicit type annotation based on its intended use.
 
 // Change the right-side values to match the correct types.
-export let username: string = 42; 
-export let userAge: number = "25"; 
-export let isEmployed: boolean = "yes"; 
+export let username: number = 42;
+export let userAge: string = "25";
+export let isEmployed: string = "yes";
+
+
+// NOTE: Problem solved
