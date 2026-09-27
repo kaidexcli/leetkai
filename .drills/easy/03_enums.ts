@@ -5,4 +5,16 @@
 
 // TODO: Define TrafficLight enum here
 
-export let currentLight: any; // TODO: Type this as TrafficLight and assign TrafficLight.Red
+enum trafficLight {
+    Red = "RED",
+    Yellow = "YELLOW",
+    Green = "GREEN",
+}
+
+let currentLight: trafficLight = trafficLight.Red; // TODO: Type this as trafficLight and assign TrafficLight.Red
+
+console.log(currentLight);
+
+export {};
+
+// NOTE: Problem Solved
