@@ -137,17 +137,24 @@ let myCar: Car = {
 // ------------------------------------------
 // You can strictly type the parameters and the return type of functions.
 
-// Basic typed function
+// Basic typed function (Function Declaration)
+// Best used for standard reusable logic. They are hoisted, meaning they can be
+// called before they are defined in the file.
 function multiply(a: number, b: number): number {
     return a * b;
 }
 
 // Arrow function with types
+// Best used for inline callbacks, array methods (like map/filter), or when
+// you need to preserve the lexical 'this' context in class methods.
 const divide = (a: number, b: number): number => {
     return a / b;
 };
 
 // Optional Parameters (Must come after required parameters)
+// Use the '?' operator to denote a parameter that might not be provided.
+// Best used when a piece of information is nice to have but not strictly required
+// for the function to operate properly (e.g., a middle name, or an optional config flag).
 function greet(firstName: string, lastName?: string): string {
     if (lastName) {
         return `Hello, ${firstName} ${lastName}`;
