@@ -9,4 +9,17 @@
 
 // Create an object 'myBook' of type 'Book' and provide valid values for the required properties.
 
-export let myBook: any; // TODO: Change type to 'Book' and assign a valid object
+interface Book {
+    name: string,
+    genre: string,
+    author?: string
+    year?: number,
+    isBestSeller?: any,
+}
+
+export let myBook: Book = {
+    name: "Lord of the Rings",
+    genre: "Fiction",
+}
+
+
