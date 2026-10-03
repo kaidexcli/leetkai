@@ -61,7 +61,6 @@ enum Status {
 }
 let apiStatus: Status = Status.Pending;
 
-
 // ------------------------------------------
 // 4. SPECIAL TYPES
 // ------------------------------------------
@@ -93,7 +92,6 @@ function throwError(errorMsg: string): never {
 let uninitialized: undefined = undefined;
 let emptyValue: null = null;
 
-
 // ------------------------------------------
 // 5. OBJECT TYPES
 // ------------------------------------------
@@ -104,7 +102,6 @@ let person: { name: string; age: number; isEmployed: boolean } = {
     age: 30,
     isEmployed: true
 };
-
 
 // ------------------------------------------
 // 6. TYPE ALIASES & BASIC INTERFACES
@@ -130,7 +127,6 @@ let myCar: Car = {
     year: 2022
     // 'model' is omitted, and that's completely fine.
 };
-
 
 // ------------------------------------------
 // 7. FUNCTIONS
@@ -172,7 +168,6 @@ function calculateSum(...numbers: number[]): number {
     return numbers.reduce((total, num) => total + num, 0);
 }
 
-
 // ------------------------------------------
 // 8. TYPE INFERENCE
 // ------------------------------------------
@@ -182,7 +177,5 @@ function calculateSum(...numbers: number[]): number {
 let inferredString = "This is a string"; // TS inherently knows this is of type 'string'
 // inferredString = 10; // Error! Type 'number' is not assignable to type 'string'.
 
-
 // Make this file a module to avoid global scope pollution
 export {};
-

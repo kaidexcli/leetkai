@@ -76,7 +76,6 @@ class Circle extends Shape {
     getArea(): number { return Math.PI * this.radius * this.radius; }
 }
 
-
 // ------------------------------------------
 // 2. INTERFACES (Advanced)
 // ------------------------------------------
